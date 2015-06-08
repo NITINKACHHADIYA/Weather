@@ -14,6 +14,10 @@
 		C16E39AA1B25990400FA5399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16E39A91B25990400FA5399 /* Images.xcassets */; };
 		C16E39AD1B25990400FA5399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16E39AB1B25990400FA5399 /* LaunchScreen.xib */; };
 		C16E39B91B25990400FA5399 /* WeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C16E39B81B25990400FA5399 /* WeatherTests.m */; };
+		C16E39C51B25991D00FA5399 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16E39C21B25991D00FA5399 /* Default-568h@2x.png */; };
+		C16E39C61B25991D00FA5399 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C16E39C31B25991D00FA5399 /* Default.png */; };
+		C16E39C71B25991D00FA5399 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16E39C41B25991D00FA5399 /* Default@2x.png */; };
+		C16E39CA1B25993900FA5399 /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = C16E39C91B25993900FA5399 /* YQL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		C16E39B21B25990400FA5399 /* WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16E39B71B25990400FA5399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16E39B81B25990400FA5399 /* WeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherTests.m; sourceTree = "<group>"; };
+		C16E39C21B25991D00FA5399 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C16E39C31B25991D00FA5399 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C16E39C41B25991D00FA5399 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C16E39C81B25993900FA5399 /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		C16E39C91B25993900FA5399 /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,9 @@
 		C16E399B1B25990400FA5399 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				C16E39C21B25991D00FA5399 /* Default-568h@2x.png */,
+				C16E39C31B25991D00FA5399 /* Default.png */,
+				C16E39C41B25991D00FA5399 /* Default@2x.png */,
 				C16E39A01B25990400FA5399 /* AppDelegate.h */,
 				C16E39A11B25990400FA5399 /* AppDelegate.m */,
 				C16E39A31B25990400FA5399 /* ViewController.h */,
@@ -88,6 +100,8 @@
 				C16E39A61B25990400FA5399 /* Main.storyboard */,
 				C16E39A91B25990400FA5399 /* Images.xcassets */,
 				C16E39AB1B25990400FA5399 /* LaunchScreen.xib */,
+				C16E39C81B25993900FA5399 /* YQL.h */,
+				C16E39C91B25993900FA5399 /* YQL.m */,
 				C16E399C1B25990400FA5399 /* Supporting Files */,
 			);
 			path = Weather;
@@ -199,9 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16E39C71B25991D00FA5399 /* Default@2x.png in Resources */,
 				C16E39A81B25990400FA5399 /* Main.storyboard in Resources */,
+				C16E39C51B25991D00FA5399 /* Default-568h@2x.png in Resources */,
 				C16E39AD1B25990400FA5399 /* LaunchScreen.xib in Resources */,
 				C16E39AA1B25990400FA5399 /* Images.xcassets in Resources */,
+				C16E39C61B25991D00FA5399 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +238,7 @@
 			files = (
 				C16E39A51B25990400FA5399 /* ViewController.m in Sources */,
 				C16E39A21B25990400FA5399 /* AppDelegate.m in Sources */,
+				C16E39CA1B25993900FA5399 /* YQL.m in Sources */,
 				C16E399F1B25990400FA5399 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

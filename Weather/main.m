@@ -2,7 +2,7 @@
 //  main.m
 //  Weather
 //
-//  Created by OptiMatrix on 159/06/15.
+//  Created by yourcompnay on 159/06/15.
 //  Copyright (c) 2015 YourCompany. All rights reserved.
 //
 
